@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mejorando la Interactividad de tu Formulario con JavaScript</title>
+    <!-- Enlace a jQuery y jQuery UI para el ejemplo de autocompletado -->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.min.js"></script>
+    <link rel="stylesheet" href="/FormulariosBásico/Style.Css">
+</head>
+<body>
+
+    <h2>Formulario de contacto</h2>
+
+    <form id="formulario" action="/" method="post">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" >
+        <br>
+        <label for="email">Correo electrónico:</label>
+        <input type="email" id="email" name="email" >
+        <br>
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" ></textarea>
+        <br>
+        <label for="ciudad">Ciudad:</label>
+        <input type="text" id="ciudad" name="ciudad">
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+
+   <script src="/FormulariosBásico/app.js"> </script>
+
+</body>
+</html>
+
+
+
+

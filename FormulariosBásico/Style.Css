@@ -1,0 +1,38 @@
+  /* Estilo para etiquetas y campos de entrada */
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+
+
+  input,
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+          /* Estilo para el menú desplegable*/
+select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #fff;
+  color: #555;
+}
+/* Estilo para el botón de envío */
+button[type="submit"] {
+padding: 10px 20px;
+background-color: #007bff;
+color: #fff;
+border: none;
+border-radius: 5px;
+cursor: pointer;
+}
+
+button[type="submit"]:hover {
+background-color: #0056b3;
+} 

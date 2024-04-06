@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejemplos de Pseudo-clases y Pseudo-elementos en CSS</title>
+  <style>
+    /* CSS para pseudo-clases */
+    a:hover {
+      color: #ff0000; /* Cambia el color del texto cuando el mouse está sobre un enlace */
+    }
+    
+    li:nth-child(odd) {
+      background-color: #f2f2f2; /* Aplica un fondo gris a los elementos de lista impares */
+    }
+    
+    input:focus {
+      border: 4px solid #007bff; /* Añade un borde azul cuando un campo de entrada está enfocado */
+    }
+    
+    /* CSS para pseudo-elementos */
+    p::first-line {
+      font-weight: bold; /* Hace que la primera línea de cada párrafo sea bold */
+    }
+    
+    p::before {
+      content: "🔥 "; /* Añade un emoji de fuego antes de cada párrafo */
+    }
+    
+    p::after {
+      content: " 🔥"; /* Añade un emoji de fuego después de cada párrafo */
+    }
+  </style>
+</head>
+<body>
+  <!-- Ejemplo de :hover -->
+  <a href="#">Enlace</a>
+  
+  <!-- Ejemplo de :nth-child() -->
+  <ul>
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+    <li>Elemento 4</li>
+    <li>Elemento 5</li>
+  </ul>
+  
+  <!-- Ejemplo de :focus -->
+  <input type="text" placeholder="Escribe aquí">
+  
+  <!-- Ejemplo de ::first-line, ::before, ::after -->
+  <p>Este es un párrafo de ejemplo que muestra el uso de pseudo-elementos en CSS. <br> Y aqui continua</p>
+</body>
+</html>
